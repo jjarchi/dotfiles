@@ -1,0 +1,28 @@
+================== i3 Hotkeys ===================
+
+Launch & System
+  Super + Enter            Terminal
+  Super + d                App launcher
+  Super + w		   Firefox
+  Super + Shift + B	   Cycle power profiles
+
+Focus & Move
+  Super + Arrows           Focus window
+  Super + Shift + Arrows   Move window
+
+Layout
+  Super + h / v            Split horizontal / vertical
+  Super + e / t            Tabbed / split layout
+  Super + f                Toggle fullscreen
+  Super + Shift + Space    Toggle floating
+
+Workspaces
+  Super + [1–0]            Switch workspace
+  Super + Shift + [1–0]    Move window to workspace
+
+Resize Mode
+  Super + r                Enter resize mode
+  Esc / Enter / Super + r  Exit resize mode
+
+
+=================================================

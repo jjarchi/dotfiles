@@ -1,0 +1,32 @@
+general {
+  colors = false
+  interval = 1
+}
+
+# Module order (left → right)
+order += "volume master"
+order += "battery all"
+order += "read_file PPD"
+order += "tztime local"
+
+# --- Modules ---
+
+volume master {
+  # ALSA control name (see tips below if "Master" doesn't exist)
+  mixer = "Master"
+  mixer_idx = 0
+  format = "VOL %volume"
+}
+
+battery all {
+  format = "%status %percentage %remaining"
+}
+
+tztime local {
+  format = "%D %H:%M"
+}
+
+read_file PPD {
+  path = "/home/user/.cache/ppd_status.txt"
+  format = "%content"
+}
