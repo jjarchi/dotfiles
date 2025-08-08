@@ -171,3 +171,7 @@ exec_always --no-startup-id ~/.config/i3/scripts/ppd-status-loop.sh
 # Power Profiles
 exec_always --no-startup-id ~/.config/i3/scripts/ppd-status-loop.sh
 bindsym $mod+Shift+b exec --no-startup-id ~/.config/i3/scripts/ppd-toggle.sh
+
+
+
+smart_borders on
