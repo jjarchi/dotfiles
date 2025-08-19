@@ -128,10 +128,6 @@ bar {
     status_command i3status
 }
 
-# rules
-for_window [class="Hotkeys"] move container to workspace number 10
-exec_always --no-startup-id /home/user/.config/i3/scripts/launch_hotkeys.sh
-
 # power
 exec_always --no-startup-id ~/.config/i3/scripts/ppd-status-loop.sh
 bindsym $mod+Shift+b exec --no-startup-id ~/.config/i3/scripts/ppd-toggle.sh
