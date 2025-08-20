@@ -11,7 +11,7 @@ exec --no-startup-id dex --autostart --environment i3
 
 # lock
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-bindsym $mod+Shift+L exec --no-startup-id i3lock --nofork
+bindsym $mod+Shift+P exec --no-startup-id i3lock --nofork
 
 # network
 exec --no-startup-id nm-applet
